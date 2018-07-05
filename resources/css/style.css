@@ -1,2 +1,258 @@
 /* Universal Styles */
 
+html {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+}
+
+h1{
+	font-size: 3rem;
+	font-weight: bold;
+	color: #4a4a4a;
+}
+
+h2 {
+	font-size: 1.75rem;
+	font-weight: bold;
+	color: #4a4a4a;
+}
+
+p {
+	line-height: 1.7;
+}
+
+a {
+	color: #348ae1;
+}
+
+.supporting {
+	width: 40%;
+	display: flex;
+	align-items: center;
+	flex-flow: column;
+}
+
+.supporting .story {
+	display: flex;
+	align-items: center;
+}
+
+.supporting .story-photo {
+	width: 35%;
+	padding: 1rem;
+}
+
+.story-photo img {
+	max-width: 100%;
+	height: auto;
+}
+
+.supporting .entry {
+	width: 65%;
+}
+
+.supporting .entry p {
+	padding: 0.5rem 0;
+}
+
+#highlight {
+	background-color: #d8d8d8;
+}
+
+/* Header Section */
+
+header {
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 4rem;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+
+.company {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	margin-left: 1.5rem;
+	height: 2rem;
+	color: #9c9c9c;
+	font-size: 1.25rem;
+}
+
+.company span {
+	font-weight: bold;
+	color: #4a4a4a;
+}
+
+header nav ul {
+	display: flex;
+	margin-right: 1.5rem;
+}
+
+nav li {
+	padding-left: 1rem;
+}
+
+.mobile {
+	display: none;
+}
+
+/* Main Banner Section */
+
+.main-banner {
+	padding-top: 4rem;
+	background-color: #d8d8d8;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.main-banner h2 {
+	margin-top: 2rem;
+}
+
+.main-banner img {
+	width: 60%;
+	padding: 2rem 2rem 2rem 1.5rem;
+}
+
+.btn {
+	padding: 0.75rem 0;
+	margin-top: 2rem;
+	width: 20rem;
+	text-align: center;
+	background-color: #4a4a4a;
+	color: #fff;
+}
+
+/* Stories Section */
+
+.stories {
+	padding: 2rem 1.5rem;
+	display: flex;
+}
+
+.main-story {
+	width: 60%;
+	padding-right: 1.5rem;
+}
+
+.main-photo img {
+	max-width: 100%;
+}
+
+.main-entry {
+	padding: 2rem 0;
+}
+
+.main-entry p {
+	padding-top: 1.5rem;
+}
+
+.main-entry .attribution {
+	font-size: 0.9rem;
+}
+
+.stories .supporting {
+	border: #d8d8d8 1px solid;
+}
+	
+.stories .supporting .story {
+	border: #d8d8d8 1px solid;
+}
+
+/* Learning Section */
+	
+.learning {
+	background-color: #d8d8d8;
+}
+
+.learning h1 {
+	text-align: center;
+	padding-top: 2rem;
+}
+
+.courses {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	overflow: hidden;
+}
+
+.learning-block {
+	background-color: #fff;
+	margin: 2rem 1rem;
+	width: 25%;
+	overflow: hidden;
+}
+
+.learning-block img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.learning-entry {
+	padding: 1rem 1rem 1.5rem 1rem;
+	display: block;
+}
+
+.learning-entry h3 {
+	padding: 0.5rem 0;
+}
+
+/* Thesis Section */
+
+.thesis-content {
+	display: flex;
+	padding: 2rem 1.5rem;
+}
+
+.thesis h1 {
+	padding-top: 2rem;
+	text-align: center;
+}
+
+.main-thesis {
+	width: 60%;
+	padding-right: 1.5rem;
+}
+
+.main-thesis video {
+	max-width: 100%;
+}
+
+.thesis-entry {
+	padding: 2rem 0;
+}
+
+.thesis-entry p {
+	padding-top: 1.5rem;
+}
+
+/* Footer Section */
+
+footer {
+	border-top: #d8d8d8 1px solid;
+	display: flex;
+	padding: 1rem 1.5rem 3rem 1.5rem;
+	color: #848484;
+}
+
+.copyright {
+	flex-grow: 1;
+}
+
+.footer-nav ul {
+	display: flex;
+}
+
+.footer-nav ul li {
+	padding-left: 0.5rem;
+}
+
+.footer-nav a {
+	color: #848484;
+}
