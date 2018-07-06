@@ -16,9 +16,9 @@
 <header>
 	<div class="company">
 		<a href="index.html"><img src="./resources/images/ic-logo.svg" /></a>
-		<span class="colmar-name">COLMAR</span>ACADEMY
+		<span>COLMAR</span>ACADEMY
 	</div>
-	<nav class="desktop">
+	<nav class="desktop-nav">
 		<ul>
 			<li><a href="#">On campus</a></li>
 			<li><a href="#">Online</a></li>
@@ -26,8 +26,9 @@
 			<li><a href="#">Sign in</a></li>
 		</ul>
 	</nav>
-	<nav class="mobile">
+	<nav class="mobile-nav">
 		<ul>
+			<li><a href="#"><img src="./resources/images/ic-logo.svg"></a></li>
 			<li><a href="#"><img src="./resources/images/ic-on-campus.svg"></a></li>
 			<li><a href="#"><img src="resources/images/ic-online.svg"></a></li>
 			<li><a href="#"><img src="resources/images/ic-login.svg"></a></li>
@@ -47,7 +48,7 @@
 		<h1>Learn something new everyday</h1>
 		<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
 		<div class="btn">
-			Start here
+			<a href="#">Start here</a>
 		</div>
 	</div>
 </section>
@@ -65,11 +66,12 @@
 			<p class="attribution">Emanuel, Sr Strategist at Hiring.com</p>
 		</div>
 	</div>
-	<div class="supporting">
+	<div id="stories-supporting" class="supporting">
 		<div class="story">
 			<div class="story-photo">
 				<img src="./resources/images/information-orientation.jpg" alt="Students walking on campus sidewalks" />
 			</div>
+			<div class="mobile-photo"><img src="./resources/images/information-orientation-mobile.jpg" alt="Students walking on capus sidewalks" /></div>
 			<div class="entry">
 				<h2>Orientation date</h2>
 				<p>Tue 10/11 &amp; Wed 10/12: 8am-3pm</p>
@@ -80,6 +82,9 @@
 			<div class="story-photo">
 				<img src="./resources/images/information-campus.jpg" alt="Students sitting in an inviting campus room" />
 			</div>
+			<div class="mobile-photo">
+				<img src="resources/images/information-campus-mobile.jpg" alt="Students sitting in an inviting campus room" />
+			</div>
 			<div class="entry">
 				<h2>Our campus</h2>
 				<p>Find which campus is close by you</p>
@@ -88,10 +93,13 @@
 		</div>
 		<div id="highlight" class="story">
 			<div class="story-photo">
-				<img src="./resources/images/information-guest-lecture.jpg" alt="A photo of guest lecturere, Oliver Sacks" />
+				<img src="./resources/images/information-guest-lecture.jpg" alt="A photo of guest lecturer, Oliver Sacks" />
+			</div>
+			<div class="mobile-photo">
+				<img src="resources/images/information-guest-lecture-mobile.jpg" alt="A photo of guest lecturer, Oliver Sacks" />
 			</div>
 			<div class="entry">
-				<h2>Our guest lecture</h2>
+				<h2>Special guest lecture</h2>
 				<p>Join a keynote with Oliver Sacks about music in medical treatment</p>
 				<a href="#">Read more</a>
 			</div>
@@ -171,7 +179,7 @@
 				<p>"Curabitir vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna looreet, efficitur dolor consequat, tristique ligula."</p>
 			</div>
 		</div>
-		<div class="supporting">
+		<div id="thesis-supporting" class="supporting">
 			<div id="highlight" class="story">
 				<div class="story-photo">
 					<img src="./resources/images/thesis-fisma.jpg" alt="An illustrated showcase of the prototype" />
